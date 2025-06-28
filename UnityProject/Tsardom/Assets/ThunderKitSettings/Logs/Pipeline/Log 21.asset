@@ -1,0 +1,629 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9af1c6015733a42be940cc462aa7ed, type: 3}
+  m_Name: Log 21
+  m_EditorClassIdentifier: 
+  pipeline: {fileID: 11400000, guid: 7c0b78519e6f4cc4f8719a9797d808c0, type: 2}
+  creationDate:
+    ticks: 638802413306575842
+  entries:
+  - logLevel: 3
+    internalTime:
+      ticks: 638802413324524937
+    message: '[Pipeline](assetlink://Assets%2fPipeline.asset) Finished execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638802413311937306
+    message: '[Pipeline(0 - StageAssetBundles)](assetlink://Assets%2fPipeline.asset)[Manifest](assetlink://Assets%2fManifest.asset)
+      Creating 1 AssetBundles'
+    context:
+    - 'data.bundle
+
+      [KickBalls](assetlink://Assets%2fData%2fKickBalls.anim)
+
+      
+
+      [Atlas_Quasi_Ur](assetlink://Assets%2fData%2fCustom%2fAtlas_Quasi_Ur.png)
+
+      
+
+      [Custom_packed](assetlink://Assets%2fData%2fCustom%2fCustom_packed.bytes)
+
+      
+
+      [QuasiUrBaron](assetlink://Assets%2fData%2fCustom%2fQuasiUrBaron.fbx)
+
+      
+
+      [QuasiUrBaronActor](assetlink://Assets%2fData%2fCustom%2fQuasiUrBaronActor.asset)
+
+      
+
+      [QuasiUrBaronActorPreset](assetlink://Assets%2fData%2fCustom%2fQuasiUrBaronActorPreset.asset)
+
+      
+
+      [QuasiUrBaronPrefab](assetlink://Assets%2fData%2fCustom%2fQuasiUrBaronPrefab.prefab)
+
+      
+
+      [aboba](assetlink://Assets%2fData%2fDummy%2faboba.mat)
+
+      
+
+      [hair](assetlink://Assets%2fData%2fDummy%2fhair.png)
+
+      
+
+      [Human_Black](assetlink://Assets%2fData%2fDummy%2fHuman_Black.png)
+
+      
+
+      [Human_White](assetlink://Assets%2fData%2fDummy%2fHuman_White.png)
+
+      
+
+      [InventoryDummy](assetlink://Assets%2fData%2fDummy%2fInventoryDummy.png)
+
+      
+
+      [InventoryDummyLines](assetlink://Assets%2fData%2fDummy%2fInventoryDummyLines.png)
+
+      
+
+      [New
+      Actor](assetlink://Assets%2fData%2fDummy%2fNew+Actor.asset)
+
+      
+
+      [New
+      CreatureAnimator3dPreset](assetlink://Assets%2fData%2fDummy%2fNew+CreatureAnimator3dPreset.asset)
+
+      
+
+      [OurCustomModel](assetlink://Assets%2fData%2fDummy%2fOurCustomModel.prefab)
+
+      
+
+      [RegularMan](assetlink://Assets%2fData%2fDummy%2fRegularMan.fbx)
+
+      
+
+      [ArmorHeavy](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy.fbx)
+
+      
+
+      [ArmorLight](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight.fbx)
+
+      
+
+      [ArmorMedium](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorMedium.fbx)
+
+      
+
+      [ClothCommon](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothCommon.fbx)
+
+      
+
+      [ClothCommonAlternative](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothCommonAlternative.fbx)
+
+      
+
+      [ClothPosessed](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothPosessed.fbx)
+
+      
+
+      [ClothReinforced](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothReinforced.fbx)
+
+      
+
+      [ClothScientist](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothScientist.fbx)
+
+      
+
+      [ClownMask](assetlink://Assets%2fData%2fDummy%2fArmors%2fClownMask.fbx)
+
+      
+
+      [Cristmas](assetlink://Assets%2fData%2fDummy%2fArmors%2fCristmas.fbx)
+
+      
+
+      [GasMask](assetlink://Assets%2fData%2fDummy%2fArmors%2fGasMask.fbx)
+
+      
+
+      [MercuryLight](assetlink://Assets%2fData%2fDummy%2fArmors%2fMercuryLight.fbx)
+
+      
+
+      [PoliceLight](assetlink://Assets%2fData%2fDummy%2fArmors%2fPoliceLight.fbx)
+
+      
+
+      [PoliceMedium](assetlink://Assets%2fData%2fDummy%2fArmors%2fPoliceMedium.fbx)
+
+      
+
+      [VenusHeavy](assetlink://Assets%2fData%2fDummy%2fArmors%2fVenusHeavy.fbx)
+
+      
+
+      [VenusLight](assetlink://Assets%2fData%2fDummy%2fArmors%2fVenusLight.fbx)
+
+      
+
+      [ManHair_1](assetlink://Assets%2fData%2fDummy%2fHair%2fManHair_1.fbx)
+
+      
+
+      [ManHair_1](assetlink://Assets%2fData%2fDummy%2fHair%2fManHair_1.prefab)
+
+      
+
+      [ManHair_2](assetlink://Assets%2fData%2fDummy%2fHair%2fManHair_2.fbx)
+
+      
+
+      [ManHair_2](assetlink://Assets%2fData%2fDummy%2fHair%2fManHair_2.prefab)
+
+      
+
+      [ManHair_3](assetlink://Assets%2fData%2fDummy%2fHair%2fManHair_3.fbx)
+
+      
+
+      [ManHair_3](assetlink://Assets%2fData%2fDummy%2fHair%2fManHair_3.prefab)
+
+      
+
+      [MeleeOneHanded_AttackAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f1h_MeleeWeapon%2fMeleeOneHanded_AttackAnim.anim)
+
+      
+
+      [MeleeOneHanded_DeathAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f1h_MeleeWeapon%2fMeleeOneHanded_DeathAnim.anim)
+
+      
+
+      [MeleeOneHanded_IdleAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f1h_MeleeWeapon%2fMeleeOneHanded_IdleAnim.anim)
+
+      
+
+      [MeleeOneHanded_TakeHitAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f1h_MeleeWeapon%2fMeleeOneHanded_TakeHitAnim.anim)
+
+      
+
+      [MeleeOneHanded_WalkAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f1h_MeleeWeapon%2fMeleeOneHanded_WalkAnim.anim)
+
+      
+
+      [Pistol_AttackAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f1h_RangeWeapon%2fPistol_AttackAnim.anim)
+
+      
+
+      [Pistol_DeathAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f1h_RangeWeapon%2fPistol_DeathAnim.anim)
+
+      
+
+      [Pistol_FireAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f1h_RangeWeapon%2fPistol_FireAnim.anim)
+
+      
+
+      [Pistol_IdleAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f1h_RangeWeapon%2fPistol_IdleAnim.anim)
+
+      
+
+      [Pistol_ReloadingAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f1h_RangeWeapon%2fPistol_ReloadingAnim.anim)
+
+      
+
+      [Pistol_TakeHitAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f1h_RangeWeapon%2fPistol_TakeHitAnim.anim)
+
+      
+
+      [Pistol_WalkAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f1h_RangeWeapon%2fPistol_WalkAnim.anim)
+
+      
+
+      [MeleeTwoHanded_AttackAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_MeleeWeapon%2fMeleeTwoHanded_AttackAnim.anim)
+
+      
+
+      [MeleeTwoHanded_DeathAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_MeleeWeapon%2fMeleeTwoHanded_DeathAnim.anim)
+
+      
+
+      [MeleeTwoHanded_FireAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_MeleeWeapon%2fMeleeTwoHanded_FireAnim.anim)
+
+      
+
+      [MeleeTwoHanded_IdleAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_MeleeWeapon%2fMeleeTwoHanded_IdleAnim.anim)
+
+      
+
+      [MeleeTwoHanded_ReloadingAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_MeleeWeapon%2fMeleeTwoHanded_ReloadingAnim.anim)
+
+      
+
+      [MeleeTwoHanded_TakeHitAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_MeleeWeapon%2fMeleeTwoHanded_TakeHitAnim.anim)
+
+      
+
+      [MeleeTwoHanded_WalkAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_MeleeWeapon%2fMeleeTwoHanded_WalkAnim.anim)
+
+      
+
+      [Rifle_AttackAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_RangeWeapon%2fRifle_AttackAnim.anim)
+
+      
+
+      [Rifle_DeathAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_RangeWeapon%2fRifle_DeathAnim.anim)
+
+      
+
+      [Rifle_FireAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_RangeWeapon%2fRifle_FireAnim.anim)
+
+      
+
+      [Rifle_IdleAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_RangeWeapon%2fRifle_IdleAnim.anim)
+
+      
+
+      [Rifle_ReloadingAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_RangeWeapon%2fRifle_ReloadingAnim.anim)
+
+      
+
+      [Rifle_TakeHitAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_RangeWeapon%2fRifle_TakeHitAnim.anim)
+
+      
+
+      [Rifle_WalkAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2f2h_RangeWeapon%2fRifle_WalkAnim.anim)
+
+      
+
+      [BareHands_AttackAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2fBareHands%2fBareHands_AttackAnim.anim)
+
+      
+
+      [BareHands_DeathAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2fBareHands%2fBareHands_DeathAnim.anim)
+
+      
+
+      [BareHands_FireAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2fBareHands%2fBareHands_FireAnim.anim)
+
+      
+
+      [BareHands_IdleAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2fBareHands%2fBareHands_IdleAnim.anim)
+
+      
+
+      [BareHands_ReloadingAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2fBareHands%2fBareHands_ReloadingAnim.anim)
+
+      
+
+      [BareHands_TakeHitAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2fBareHands%2fBareHands_TakeHitAnim.anim)
+
+      
+
+      [BareHands_WalkAnim](assetlink://Assets%2fData%2fDummy%2fAnimations%2fBareHands%2fBareHands_WalkAnim.anim)
+
+      
+
+      [Body](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy%2fBody.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy%2fHead.prefab)
+
+      
+
+      [Hip](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy%2fHip.prefab)
+
+      
+
+      [LArm](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy%2fLArm.prefab)
+
+      
+
+      [LFeet](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy%2fLFeet.prefab)
+
+      
+
+      [LLeg](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy%2fLLeg.prefab)
+
+      
+
+      [LShoulder](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy%2fLShoulder.prefab)
+
+      
+
+      [LThigh](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy%2fLThigh.prefab)
+
+      
+
+      [RArm](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy%2fRArm.prefab)
+
+      
+
+      [RFeet](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy%2fRFeet.prefab)
+
+      
+
+      [RLeg](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy%2fRLeg.prefab)
+
+      
+
+      [RShoulder](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy%2fRShoulder.prefab)
+
+      
+
+      [RThigh](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorHeavy%2fRThigh.prefab)
+
+      
+
+      [Body](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight%2fBody.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight%2fHead.prefab)
+
+      
+
+      [Hip](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight%2fHip.prefab)
+
+      
+
+      [LArm](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight%2fLArm.prefab)
+
+      
+
+      [LFeet](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight%2fLFeet.prefab)
+
+      
+
+      [LLeg](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight%2fLLeg.prefab)
+
+      
+
+      [LShoulder](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight%2fLShoulder.prefab)
+
+      
+
+      [LThigh](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight%2fLThigh.prefab)
+
+      
+
+      [RArm](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight%2fRArm.prefab)
+
+      
+
+      [RFeet](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight%2fRFeet.prefab)
+
+      
+
+      [RLeg](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight%2fRLeg.prefab)
+
+      
+
+      [RShoulder](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight%2fRShoulder.prefab)
+
+      
+
+      [RThigh](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorLight%2fRThigh.prefab)
+
+      
+
+      [Body](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorMedium%2fBody.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorMedium%2fHead.prefab)
+
+      
+
+      [Hip](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorMedium%2fHip.prefab)
+
+      
+
+      [LFeet](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorMedium%2fLFeet.prefab)
+
+      
+
+      [LLeg](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorMedium%2fLLeg.prefab)
+
+      
+
+      [LShoulder](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorMedium%2fLShoulder.prefab)
+
+      
+
+      [LThigh](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorMedium%2fLThigh.prefab)
+
+      
+
+      [RFeet](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorMedium%2fRFeet.prefab)
+
+      
+
+      [RLeg](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorMedium%2fRLeg.prefab)
+
+      
+
+      [RShoulder](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorMedium%2fRShoulder.prefab)
+
+      
+
+      [RThigh](assetlink://Assets%2fData%2fDummy%2fArmors%2fArmorMedium%2fRThigh.prefab)
+
+      
+
+      [Body](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothCommon%2fBody.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothCommon%2fHead.prefab)
+
+      
+
+      [Hip](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothCommon%2fHip.prefab)
+
+      
+
+      [LLeg](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothCommon%2fLLeg.prefab)
+
+      
+
+      [LThigh](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothCommon%2fLThigh.prefab)
+
+      
+
+      [RLeg](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothCommon%2fRLeg.prefab)
+
+      
+
+      [RThigh](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothCommon%2fRThigh.prefab)
+
+      
+
+      [Body](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothCommonAlternative%2fBody.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothCommonAlternative%2fHead.prefab)
+
+      
+
+      [LShoulder](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothCommonAlternative%2fLShoulder.prefab)
+
+      
+
+      [RShoulder](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothCommonAlternative%2fRShoulder.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothPosessed%2fHead.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothReinforced%2fHead.prefab)
+
+      
+
+      [Body](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothScientist%2fBody.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothScientist%2fHead.prefab)
+
+      
+
+      [Hip](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothScientist%2fHip.prefab)
+
+      
+
+      [LArm](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothScientist%2fLArm.prefab)
+
+      
+
+      [LShoulder](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothScientist%2fLShoulder.prefab)
+
+      
+
+      [RArm](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothScientist%2fRArm.prefab)
+
+      
+
+      [RShoulder](assetlink://Assets%2fData%2fDummy%2fArmors%2fClothScientist%2fRShoulder.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fClownMask%2fHead.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fCristmas%2fHead.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fGasMask%2fHead.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fMercuryLight%2fHead.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fPoliceLight%2fHead.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fPoliceMedium%2fHead.prefab)
+
+      
+
+      [LShoulder](assetlink://Assets%2fData%2fDummy%2fArmors%2fPoliceMedium%2fLShoulder.prefab)
+
+      
+
+      [RShoulder](assetlink://Assets%2fData%2fDummy%2fArmors%2fPoliceMedium%2fRShoulder.prefab)
+
+      
+
+      [Body](assetlink://Assets%2fData%2fDummy%2fArmors%2fVenusHeavy%2fBody.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fVenusHeavy%2fHead.prefab)
+
+      
+
+      [Body](assetlink://Assets%2fData%2fDummy%2fArmors%2fVenusLight%2fBody.prefab)
+
+      
+
+      [Head](assetlink://Assets%2fData%2fDummy%2fArmors%2fVenusLight%2fHead.prefab)
+
+      
+
+      [Hip](assetlink://Assets%2fData%2fDummy%2fArmors%2fVenusLight%2fHip.prefab)
+
+      
+
+      [LFeet](assetlink://Assets%2fData%2fDummy%2fArmors%2fVenusLight%2fLFeet.prefab)
+
+      
+
+      [RFeet](assetlink://Assets%2fData%2fDummy%2fArmors%2fVenusLight%2fRFeet.prefab)
+
+      
+
+      
+
+'
+  - logLevel: 3
+    internalTime:
+      ticks: 638802413306857374
+    message: '[Pipeline(0 - StageAssetBundles)](assetlink://Assets%2fPipeline.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638802413306817436
+    message: '[Pipeline](assetlink://Assets%2fPipeline.asset) Clearing PipelineJob
+      error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638802413306807469
+    message: '[Pipeline](assetlink://Assets%2fPipeline.asset) Execute Pipeline'
+    context: []

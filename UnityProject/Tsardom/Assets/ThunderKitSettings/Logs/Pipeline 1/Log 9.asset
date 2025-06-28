@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9af1c6015733a42be940cc462aa7ed, type: 3}
+  m_Name: Log 9
+  m_EditorClassIdentifier: 
+  pipeline: {fileID: 11400000, guid: 5ec4dc861b539744bb1bd75c577863e5, type: 2}
+  creationDate:
+    ticks: 638829912302556169
+  entries:
+  - logLevel: 3
+    internalTime:
+      ticks: 638829912317571784
+    message: '[Pipeline 1](assetlink://Assets%2fPipeline+1.asset) Finished execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638829912305931417
+    message: '[Pipeline 1(0 - StageAssetBundles)](assetlink://Assets%2fPipeline+1.asset)[Manifest
+      1](assetlink://Assets%2fManifest+1.asset) Creating 1 AssetBundles'
+    context:
+    - 'data.bundle
+
+      [TsarHelmets](assetlink://Assets%2fTsardomFaction%2fArmor%2fTsarHelmets.png)
+
+      
+
+      [big_left](assetlink://Assets%2fTsardomFaction%2fFaction%2fbig_left.png)
+
+      
+
+      [big_normal](assetlink://Assets%2fTsardomFaction%2fFaction%2fbig_normal.png)
+
+      
+
+      [big_right](assetlink://Assets%2fTsardomFaction%2fFaction%2fbig_right.png)
+
+      
+
+      [Faction](assetlink://Assets%2fTsardomFaction%2fFaction%2fFaction.asset)
+
+      
+
+      [image](assetlink://Assets%2fTsardomFaction%2fFaction%2fimage.png)
+
+      
+
+      [missionIcon_left](assetlink://Assets%2fTsardomFaction%2fFaction%2fmissionIcon_left.png)
+
+      
+
+      [missionIcon_right](assetlink://Assets%2fTsardomFaction%2fFaction%2fmissionIcon_right.png)
+
+      
+
+      [Portrait](assetlink://Assets%2fTsardomFaction%2fFaction%2fPortrait.asset)
+
+      
+
+      [TsardomIcon12x12](assetlink://Assets%2fTsardomFaction%2fFaction%2fTsardomIcon12x12.png)
+
+      
+
+      [TsardomIcon14x14](assetlink://Assets%2fTsardomFaction%2fFaction%2fTsardomIcon14x14.png)
+
+      
+
+      [Strelets](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet0%2fStrelets.asset)
+
+      
+
+      [TsarHelmet0](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet0%2fTsarHelmet0.fbx)
+
+      
+
+      [Armor](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fArmor.png)
+
+      
+
+      [Armor1Retexture](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fArmor1Retexture.png)
+
+      
+
+      [Boots](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fBoots.png)
+
+      
+
+      [Helmet](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fHelmet.png)
+
+      
+
+      [KriegsmanArmor](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fKriegsmanArmor.asset)
+
+      
+
+      [KriegsmanBoots](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fKriegsmanBoots.asset)
+
+      
+
+      [KriegsmanHelmet](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fKriegsmanHelmet.asset)
+
+      
+
+      [KriegsmanLeggings](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fKriegsmanLeggings.asset)
+
+      
+
+      [Leggings](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fLeggings.png)
+
+      
+
+      [TsarHelmet1](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fTsarHelmet1.fbx)
+
+      
+
+      [Armor2Retexture](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet2%2fArmor2Retexture.png)
+
+      
+
+      [TsarHelmet2](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet2%2fTsarHelmet2.fbx)
+
+      
+
+      [Armor3Retexture](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet3%2fArmor3Retexture.png)
+
+      
+
+      [TsarHelmet3](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet3%2fTsarHelmet3.fbx)
+
+      
+
+      
+
+'
+  - logLevel: 3
+    internalTime:
+      ticks: 638829912302845005
+    message: '[Pipeline 1(0 - StageAssetBundles)](assetlink://Assets%2fPipeline+1.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638829912302815066
+    message: '[Pipeline 1](assetlink://Assets%2fPipeline+1.asset) Clearing PipelineJob
+      error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638829912302815066
+    message: '[Pipeline 1](assetlink://Assets%2fPipeline+1.asset) Execute Pipeline'
+    context: []

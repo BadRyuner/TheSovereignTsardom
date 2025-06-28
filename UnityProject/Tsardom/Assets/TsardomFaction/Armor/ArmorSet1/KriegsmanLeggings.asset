@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 369428275, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+  m_Name: KriegsmanLeggings
+  m_EditorClassIdentifier: 
+  _overridenRenderId: 
+  _icon: {fileID: 21300000, guid: 8de980ad5028ba24a8882528f7de96f4, type: 3}
+  _smallIcon: {fileID: 21300000, guid: 8de980ad5028ba24a8882528f7de96f4, type: 3}
+  _shadow: {fileID: 21300000, guid: 8de980ad5028ba24a8882528f7de96f4, type: 3}
+  _parts:
+  - ArmorType: ClothCommon
+    ArmorPart: Hip
+    Texture: {fileID: 2800000, guid: 05ced5c3209441f408e230a67fc44ab3, type: 3}
+  - ArmorType: ClothCommon
+    ArmorPart: RThigh
+    Texture: {fileID: 2800000, guid: 05ced5c3209441f408e230a67fc44ab3, type: 3}
+  - ArmorType: ClothCommon
+    ArmorPart: LThigh
+    Texture: {fileID: 2800000, guid: 05ced5c3209441f408e230a67fc44ab3, type: 3}
+  - ArmorType: ClothCommon
+    ArmorPart: RLeg
+    Texture: {fileID: 2800000, guid: 05ced5c3209441f408e230a67fc44ab3, type: 3}
+  - ArmorType: ClothCommon
+    ArmorPart: LLeg
+    Texture: {fileID: 2800000, guid: 05ced5c3209441f408e230a67fc44ab3, type: 3}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1622095602, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+  m_Name: Faction
+  m_EditorClassIdentifier: 
+  _bigIcon: {fileID: 21300000, guid: 9114562e49cad9541a8458c46e7fb822, type: 3}
+  _smallIcon: {fileID: 21300000, guid: fdef588ef7a7ed543b1d58997a9fab85, type: 3}
+  _bigVersusBeneficiary: {fileID: 21300000, guid: 5c84eb4761fae714a9ec54ad46dfdd5e, type: 3}
+  _bigVersusVictim: {fileID: 21300000, guid: 0ddedcac8bfd33a4b828107b24a1dd05, type: 3}
+  _smallVersusBeneficiary: {fileID: 21300000, guid: b6e958b2e3c6d104aba844aeab56fcc5, type: 3}
+  _smallVersusVictim: {fileID: 21300000, guid: f385fde62a93331469b634876f45276b, type: 3}
