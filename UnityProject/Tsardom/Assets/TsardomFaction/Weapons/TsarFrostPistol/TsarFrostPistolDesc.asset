@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: TsarFrostPistolDesc
   m_EditorClassIdentifier: 
   _overridenRenderId: 
-  _icon: {fileID: 21300000, guid: 9a74aafa8c605fb4a937fdff62703ff9, type: 3}
-  _smallIcon: {fileID: 21300000, guid: 266c8f9fe87a8834a991a919de967083, type: 3}
-  _shadow: {fileID: 21300000, guid: d3b50aab2f8f67440b5225c7ce2a8bfa, type: 3}
-  _prefab: {fileID: 4186495735428542478, guid: 65d64451d90105e48843c2e51cb2d9f1, type: 3}
-  _texture: {fileID: 2800000, guid: 9a74aafa8c605fb4a937fdff62703ff9, type: 3}
+  _icon: {fileID: 21300000, guid: 4c71cc589b03b4b48a90a4a77c496f80, type: 3}
+  _smallIcon: {fileID: 21300000, guid: c8b13e59f29c3ea49ad2fda57c345b83, type: 3}
+  _shadow: {fileID: 21300000, guid: 94cb76ae433427d48a1c983342024ad9, type: 3}
+  _prefab: {fileID: 7889671751602511836, guid: 86086c35ff8500147987c1f0c6dff226, type: 3}
+  _texture: {fileID: 2800000, guid: 4c71cc589b03b4b48a90a4a77c496f80, type: 3}
   _attackSoundBanks: []
   _reloadSoundBanks: []
   _dryShotSoundBanks: []

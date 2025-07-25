@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: TsarChainSwordDesc
   m_EditorClassIdentifier: 
   _overridenRenderId: 
-  _icon: {fileID: 21300000, guid: 9a74aafa8c605fb4a937fdff62703ff9, type: 3}
-  _smallIcon: {fileID: 21300000, guid: 266c8f9fe87a8834a991a919de967083, type: 3}
-  _shadow: {fileID: 21300000, guid: d3b50aab2f8f67440b5225c7ce2a8bfa, type: 3}
-  _prefab: {fileID: 4186495735428542478, guid: 65d64451d90105e48843c2e51cb2d9f1, type: 3}
-  _texture: {fileID: 2800000, guid: 9a74aafa8c605fb4a937fdff62703ff9, type: 3}
+  _icon: {fileID: 21300000, guid: 93ebe268cc7349a4e973bac24232466f, type: 3}
+  _smallIcon: {fileID: 21300000, guid: 3631d5083360ca74ba667887f24c5c77, type: 3}
+  _shadow: {fileID: 21300000, guid: c0c16a86a18be564aa235f359550adec, type: 3}
+  _prefab: {fileID: 123377450220598896, guid: 37c0766d876514146bb6b2c3c6e0175b, type: 3}
+  _texture: {fileID: 2800000, guid: 93ebe268cc7349a4e973bac24232466f, type: 3}
   _attackSoundBanks: []
   _reloadSoundBanks: []
   _dryShotSoundBanks: []

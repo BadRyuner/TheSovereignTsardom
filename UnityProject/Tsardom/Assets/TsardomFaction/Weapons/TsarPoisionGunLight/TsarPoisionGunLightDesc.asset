@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: TsarPoisionGunLightDesc
   m_EditorClassIdentifier: 
   _overridenRenderId: 
-  _icon: {fileID: 21300000, guid: 0fa50f1e1d224704ba2af341a3a011e1, type: 3}
-  _smallIcon: {fileID: 21300000, guid: 9fa9615b6761fee40acc8382d7df361a, type: 3}
-  _shadow: {fileID: 21300000, guid: f3b1776556deffb458c7fc9999274694, type: 3}
-  _prefab: {fileID: 4186495735428542478, guid: 65d64451d90105e48843c2e51cb2d9f1, type: 3}
-  _texture: {fileID: 2800000, guid: 9a74aafa8c605fb4a937fdff62703ff9, type: 3}
+  _icon: {fileID: 21300000, guid: ce0758cc8fdd66b44a9b19da3cc53a25, type: 3}
+  _smallIcon: {fileID: 21300000, guid: 82a47bffe03a2f044a87ae636730a02a, type: 3}
+  _shadow: {fileID: 21300000, guid: 45ae17aa29484d349a0159e84e7f222a, type: 3}
+  _prefab: {fileID: 5418012157492583324, guid: f06dd8bbeaff1e34f863fe12f5d8cffb, type: 3}
+  _texture: {fileID: 2800000, guid: ce0758cc8fdd66b44a9b19da3cc53a25, type: 3}
   _attackSoundBanks: []
   _reloadSoundBanks: []
   _dryShotSoundBanks: []

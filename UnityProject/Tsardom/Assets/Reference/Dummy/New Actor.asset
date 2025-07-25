@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 786229928, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+  m_Name: New Actor
+  m_EditorClassIdentifier: 
+  _creature3dModel: {fileID: 5536991738996433704, guid: 06c49cc1eb5349e4d87187571b83e49d, type: 3}
+  _skin: []
+  _animationSets: []
+  _armorTypes: []
+  _hairTypes: []
+  _hairTexture: {fileID: 0}
+  _inventoryDummySprite: {fileID: 0}
+  _inventoryDummyLinesSprite: {fileID: 0}
+  _blood: 0
+  _deathDissolveEffect: 0
+  _putCorpse: 1
+  _putBlood: 1
+  _putBloodCorners: 0
+  _interactWithBloodTrail: 1
+  _activityStatusY: 0.28
+  _shakeCameraOnMove: 0
+  _bigShadow: 0
+  _deathBloodAnimSprites: []
+  _deathAnimFrameRate: 10
+  _boxColliderOffset: {x: 0, y: 0}
+  _boxColliderSize: {x: 0, y: 0}

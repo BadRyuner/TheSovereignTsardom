@@ -1,0 +1,483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f9af1c6015733a42be940cc462aa7ed, type: 3}
+  m_Name: Log 38
+  m_EditorClassIdentifier: 
+  pipeline: {fileID: 11400000, guid: 5ec4dc861b539744bb1bd75c577863e5, type: 2}
+  creationDate:
+    ticks: 638890420722153709
+  entries:
+  - logLevel: 3
+    internalTime:
+      ticks: 638890420765003669
+    message: '[Pipeline 1](assetlink://Assets%2fPipeline+1.asset) Finished execution'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638890420725408386
+    message: '[Pipeline 1(0 - StageAssetBundles)](assetlink://Assets%2fPipeline+1.asset)[Manifest
+      1](assetlink://Assets%2fManifest+1.asset) Creating 1 AssetBundles'
+    context:
+    - 'data.bundle
+
+      [TsarHelmets](assetlink://Assets%2fTsardomFaction%2fArmor%2fTsarHelmets.png)
+
+      
+
+      [big_left](assetlink://Assets%2fTsardomFaction%2fFaction%2fbig_left.png)
+
+      
+
+      [big_normal](assetlink://Assets%2fTsardomFaction%2fFaction%2fbig_normal.png)
+
+      
+
+      [big_right](assetlink://Assets%2fTsardomFaction%2fFaction%2fbig_right.png)
+
+      
+
+      [Faction](assetlink://Assets%2fTsardomFaction%2fFaction%2fFaction.asset)
+
+      
+
+      [image](assetlink://Assets%2fTsardomFaction%2fFaction%2fimage.png)
+
+      
+
+      [missionIcon_left](assetlink://Assets%2fTsardomFaction%2fFaction%2fmissionIcon_left.png)
+
+      
+
+      [missionIcon_right](assetlink://Assets%2fTsardomFaction%2fFaction%2fmissionIcon_right.png)
+
+      
+
+      [Portrait](assetlink://Assets%2fTsardomFaction%2fFaction%2fPortrait.asset)
+
+      
+
+      [TsardomIcon12x12](assetlink://Assets%2fTsardomFaction%2fFaction%2fTsardomIcon12x12.png)
+
+      
+
+      [TsardomIcon14x14](assetlink://Assets%2fTsardomFaction%2fFaction%2fTsardomIcon14x14.png)
+
+      
+
+      [StreletsHelmet](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet0%2fStreletsHelmet.asset)
+
+      
+
+      [TsarHelmet0](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet0%2fTsarHelmet0.fbx)
+
+      
+
+      [TsarHelmet0Prefab](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet0%2fTsarHelmet0Prefab.prefab)
+
+      
+
+      [TsarHelmet_0](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet0%2fTsarHelmet_0.png)
+
+      
+
+      [Armor](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fArmor.png)
+
+      
+
+      [Armor1Retexture](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fArmor1Retexture.png)
+
+      
+
+      [Boots](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fBoots.png)
+
+      
+
+      [Helmet](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fHelmet.png)
+
+      
+
+      [KriegsmanArmor](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fKriegsmanArmor.asset)
+
+      
+
+      [KriegsmanBoots](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fKriegsmanBoots.asset)
+
+      
+
+      [KriegsmanHelmet](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fKriegsmanHelmet.asset)
+
+      
+
+      [KriegsmanLeggings](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fKriegsmanLeggings.asset)
+
+      
+
+      [Leggings](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fLeggings.png)
+
+      
+
+      [TsarHelmet1](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fTsarHelmet1.fbx)
+
+      
+
+      [TsarHelmet1Prefab](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet1%2fTsarHelmet1Prefab.prefab)
+
+      
+
+      [Armor](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet2%2fArmor.png)
+
+      
+
+      [Armor2Retexture](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet2%2fArmor2Retexture.png)
+
+      
+
+      [Boots](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet2%2fBoots.png)
+
+      
+
+      [Helmet](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet2%2fHelmet.png)
+
+      
+
+      [Leggings](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet2%2fLeggings.png)
+
+      
+
+      [TsarHelmet2](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet2%2fTsarHelmet2.fbx)
+
+      
+
+      [TsarHelmet2Prefab](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet2%2fTsarHelmet2Prefab.prefab)
+
+      
+
+      [VoenkomArmor](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet2%2fVoenkomArmor.asset)
+
+      
+
+      [VoenkomBoots](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet2%2fVoenkomBoots.asset)
+
+      
+
+      [VoenkomHelmet](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet2%2fVoenkomHelmet.asset)
+
+      
+
+      [VoenkomLeggings](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet2%2fVoenkomLeggings.asset)
+
+      
+
+      [Armor](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet3%2fArmor.png)
+
+      
+
+      [Armor3Retexture](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet3%2fArmor3Retexture.png)
+
+      
+
+      [Boots](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet3%2fBoots.png)
+
+      
+
+      [Helmet](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet3%2fHelmet.png)
+
+      
+
+      [Leggings](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet3%2fLeggings.png)
+
+      
+
+      [SvitaArmor](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet3%2fSvitaArmor.asset)
+
+      
+
+      [SvitaBoots](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet3%2fSvitaBoots.asset)
+
+      
+
+      [SvitaHelmet](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet3%2fSvitaHelmet.asset)
+
+      
+
+      [SvitaLeggings](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet3%2fSvitaLeggings.asset)
+
+      
+
+      [TsarHelmet3](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet3%2fTsarHelmet3.fbx)
+
+      
+
+      [TsarHelmet3Prefab](assetlink://Assets%2fTsardomFaction%2fArmor%2fArmorSet3%2fTsarHelmet3Prefab.prefab)
+
+      
+
+      [BolterHmg](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterHMG%2fBolterHmg.fbx)
+
+      
+
+      [BolterHmg](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterHMG%2fBolterHmg.png)
+
+      
+
+      [BolterHmgDesc](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterHMG%2fBolterHmgDesc.asset)
+
+      
+
+      [BolterHmgPrefab](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterHMG%2fBolterHmgPrefab.prefab)
+
+      
+
+      [BolterHmg_Floor](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterHMG%2fBolterHmg_Floor.png)
+
+      
+
+      [BolterHmg_Shadow](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterHMG%2fBolterHmg_Shadow.png)
+
+      
+
+      [BolterLight](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterLight%2fBolterLight.fbx)
+
+      
+
+      [BolterLight](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterLight%2fBolterLight.png)
+
+      
+
+      [BolterLightDesc](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterLight%2fBolterLightDesc.asset)
+
+      
+
+      [BolterLightPrefab](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterLight%2fBolterLightPrefab.prefab)
+
+      
+
+      [BolterLight_Floor](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterLight%2fBolterLight_Floor.png)
+
+      
+
+      [BolterLight_Shadow](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterLight%2fBolterLight_Shadow.png)
+
+      
+
+      [BolterMedium](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterMedium%2fBolterMedium.fbx)
+
+      
+
+      [BolterMedium](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterMedium%2fBolterMedium.png)
+
+      
+
+      [BolterMediumDesc](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterMedium%2fBolterMediumDesc.asset)
+
+      
+
+      [BolterMediumPrefab](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterMedium%2fBolterMediumPrefab.prefab)
+
+      
+
+      [BolterMedium_Floor](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterMedium%2fBolterMedium_Floor.png)
+
+      
+
+      [BolterMedium_Shadow](assetlink://Assets%2fTsardomFaction%2fWeapons%2fBolterMedium%2fBolterMedium_Shadow.png)
+
+      
+
+      [TsarChainSword](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarChainSword%2fTsarChainSword.fbx)
+
+      
+
+      [TsarChainSword](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarChainSword%2fTsarChainSword.png)
+
+      
+
+      [TsarChainSwordDesc](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarChainSword%2fTsarChainSwordDesc.asset)
+
+      
+
+      [TsarChainSwordPrefab](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarChainSword%2fTsarChainSwordPrefab.prefab)
+
+      
+
+      [TsarChainSword_Floor](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarChainSword%2fTsarChainSword_Floor.png)
+
+      
+
+      [TsarChainSword_Shadow](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarChainSword%2fTsarChainSword_Shadow.png)
+
+      
+
+      [TsarFrostPistol](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostPistol%2fTsarFrostPistol.fbx)
+
+      
+
+      [TsarFrostPistol](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostPistol%2fTsarFrostPistol.png)
+
+      
+
+      [TsarFrostPistolDesc](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostPistol%2fTsarFrostPistolDesc.asset)
+
+      
+
+      [TsarFrostPistolPrefab](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostPistol%2fTsarFrostPistolPrefab.prefab)
+
+      
+
+      [TsarFrostPistol_Floor](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostPistol%2fTsarFrostPistol_Floor.png)
+
+      
+
+      [TsarFrostPistol_Shadow](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostPistol%2fTsarFrostPistol_Shadow.png)
+
+      
+
+      [TsarFrostRifle](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostRifle%2fTsarFrostRifle.fbx)
+
+      
+
+      [TsarFrostRifle](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostRifle%2fTsarFrostRifle.png)
+
+      
+
+      [TsarFrostRifleDesc](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostRifle%2fTsarFrostRifleDesc.asset)
+
+      
+
+      [TsarFrostRiflePrefab](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostRifle%2fTsarFrostRiflePrefab.prefab)
+
+      
+
+      [TsarFrostRifle_Floor](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostRifle%2fTsarFrostRifle_Floor.png)
+
+      
+
+      [TsarFrostRifle_Shadow](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostRifle%2fTsarFrostRifle_Shadow.png)
+
+      
+
+      [TsarFrostShotgun](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostShotgun%2fTsarFrostShotgun.fbx)
+
+      
+
+      [TsarFrostShotgun](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostShotgun%2fTsarFrostShotgun.png)
+
+      
+
+      [TsarFrostShotgunDesc](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostShotgun%2fTsarFrostShotgunDesc.asset)
+
+      
+
+      [TsarFrostShotgunPrefab](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostShotgun%2fTsarFrostShotgunPrefab.prefab)
+
+      
+
+      [TsarFrostShotgun_Floor](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostShotgun%2fTsarFrostShotgun_Floor.png)
+
+      
+
+      [TsarFrostShotgun_Shadow](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarFrostShotgun%2fTsarFrostShotgun_Shadow.png)
+
+      
+
+      [TsarLmg](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarLmg%2fTsarLmg.fbx)
+
+      
+
+      [TsarLmg](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarLmg%2fTsarLmg.png)
+
+      
+
+      [TsarLmgDesc](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarLmg%2fTsarLmgDesc.asset)
+
+      
+
+      [TsarLmgPrefab](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarLmg%2fTsarLmgPrefab.prefab)
+
+      
+
+      [TsarLmg_Floor](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarLmg%2fTsarLmg_Floor.png)
+
+      
+
+      [TsarLmg_Shadow](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarLmg%2fTsarLmg_Shadow.png)
+
+      
+
+      [TsarPoisionGunHeavyDesc](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarPoisionGunHeavy%2fTsarPoisionGunHeavyDesc.asset)
+
+      
+
+      [TsarPoisonGunHeavy](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarPoisionGunHeavy%2fTsarPoisonGunHeavy.fbx)
+
+      
+
+      [TsarPoisonGunHeavy](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarPoisionGunHeavy%2fTsarPoisonGunHeavy.png)
+
+      
+
+      [TsarPoisonGunHeavyPrefab](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarPoisionGunHeavy%2fTsarPoisonGunHeavyPrefab.prefab)
+
+      
+
+      [TsarPoisonGunHeavy_Floor](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarPoisionGunHeavy%2fTsarPoisonGunHeavy_Floor.png)
+
+      
+
+      [TsarPoisonGunHeavy_Shadow](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarPoisionGunHeavy%2fTsarPoisonGunHeavy_Shadow.png)
+
+      
+
+      [TsarPoisionGunLightDesc](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarPoisionGunLight%2fTsarPoisionGunLightDesc.asset)
+
+      
+
+      [TsarPoisonGunLight](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarPoisionGunLight%2fTsarPoisonGunLight.fbx)
+
+      
+
+      [TsarPoisonGunLight](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarPoisionGunLight%2fTsarPoisonGunLight.png)
+
+      
+
+      [TsarPoisonGunLightPrefab](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarPoisionGunLight%2fTsarPoisonGunLightPrefab.prefab)
+
+      
+
+      [TsarPoisonGunLight_Floor](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarPoisionGunLight%2fTsarPoisonGunLight_Floor.png)
+
+      
+
+      [TsarPoisonGunLight_Shadow](assetlink://Assets%2fTsardomFaction%2fWeapons%2fTsarPoisionGunLight%2fTsarPoisonGunLight_Shadow.png)
+
+      
+
+      
+
+'
+  - logLevel: 3
+    internalTime:
+      ticks: 638890420722592014
+    message: '[Pipeline 1(0 - StageAssetBundles)](assetlink://Assets%2fPipeline+1.asset)
+      Execute Job'
+    context: []
+  - logLevel: 0
+    internalTime:
+      ticks: 638890420722562092
+    message: '[Pipeline 1](assetlink://Assets%2fPipeline+1.asset) Clearing PipelineJob
+      error states'
+    context: []
+  - logLevel: 3
+    internalTime:
+      ticks: 638890420722550028
+    message: '[Pipeline 1](assetlink://Assets%2fPipeline+1.asset) Execute Pipeline'
+    context: []

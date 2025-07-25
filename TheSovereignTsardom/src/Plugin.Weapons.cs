@@ -12,6 +12,9 @@ public static partial class Plugin
     public const string FjordId = FactionId + "Fjord";
     public const string TundraId = FactionId + "Tundra";
     public const string PermafrostId = FactionId + "Permafrost";
+    public const string ChainswordId = FactionId + "Chainsword";
+    public const string AconiteId = FactionId + "Aconite";
+    public const string OleanderId = FactionId + "Oleander";
     
     static void CreateWeapons()
     {
@@ -22,6 +25,9 @@ public static partial class Plugin
         CreateFjord();
         CreateTundra();
         CreatePermafrost();
+        CreateChainsword();
+        CreateAconite();
+        CreateOleander();
     }
 
     private static readonly List<string> FirearmsWeapon = ["plastic", "weapon_parts"];
@@ -339,7 +345,7 @@ public static partial class Plugin
         Data.Descriptors["rangeweapons"].AddDescriptor(TundraId, desc);
     }
     
-     static void CreatePermafrost()
+    static void CreatePermafrost()
     {
         var desc = ModBundle.LoadAsset<WeaponDescriptor>("TsarFrostRifleDesc");
         var weap = new WeaponRecord
@@ -389,5 +395,161 @@ public static partial class Plugin
         };
         Data.Items.AddRecord(PermafrostId, weap);
         Data.Descriptors["rangeweapons"].AddDescriptor(PermafrostId, desc);
+    }
+    
+    static void CreateChainsword()
+    {
+        var desc = ModBundle.LoadAsset<WeaponDescriptor>("TsarChainSwordDesc");
+        var weap = new WeaponRecord
+        {
+            Id = ChainswordId,
+            ContentDescriptor = desc,
+            Categories = [FactionId],
+            TechLevel = 6,
+            Price = 1200,
+            Weight = 3.1f,
+            InventoryWidthSize = 2,
+            ItemClass = ItemClass.Weapon,
+            Damage = new DmgInfo()
+            {
+                minDmg = 30,
+                maxDmg = 40,
+                critDmg = 1.8f,
+                critChance = 0
+            },
+            Range = 1,
+            MagazineCapacity = 12,
+            ReloadDuration = 2,
+            DefaultAmmoId = "gas_ammo",
+            RequiredAmmo = "Gas",
+            OverrideAmmo = ["implicted_sawblade", "implicted_sawblade_long"],
+            GetMeleeDamageFromCreature = false,
+            MinRandomAmmoCount = 0,
+            DurabilityLossOnThrow = 0,
+            ThrowRange = 0,
+            MeleeCanAmputate = true,
+            Firemodes = ["power_double_slash", "power_strong_slash"],
+            MaxDurability = 90,
+            MinDurabilityAfterRepair = 0,
+            Unbreakable = false,
+            RepairItemIds = FirearmsWeapon,
+            IsImplicit = false,
+            IsMelee = false,
+            WeaponClass = WeaponClass.Chainsaw,
+            WeaponSubClass = WeaponSubClass.Default,
+            DefaultGrenadeId = string.Empty,
+            AllowedGrenadeIds = [],
+            BonusAccuracy = 0,
+            BonusScatterAngle = 0,
+            FovLookAngleMult = 1,
+            DotWoundsDmgBonus = 0,
+            FractureWoundDmgBonus = 0,
+        };
+        Data.Items.AddRecord(ComitatusId, weap);
+        Data.Descriptors["rangeweapons"].AddDescriptor(ComitatusId, desc);
+    }
+    
+    static void CreateAconite()
+    {
+        var desc = ModBundle.LoadAsset<WeaponDescriptor>("TsarPoisionGunLightDesc");
+        var weap = new WeaponRecord
+        {
+            Id = AconiteId,
+            ContentDescriptor = desc,
+            Categories = [FactionId],
+            TechLevel = 5,
+            Price = 1500,
+            Weight = 3.5f,
+            InventoryWidthSize = 2,
+            ItemClass = ItemClass.Weapon,
+            Damage = new DmgInfo()
+            {
+                minDmg = 1,
+                maxDmg = 1,
+                critDmg = 1.7f,
+                critChance = 0
+            },
+            Range = 4,
+            MagazineCapacity = 6,
+            ReloadDuration = 6,
+            DefaultAmmoId = "toxic_ammo",
+            RequiredAmmo = "Toxic",
+            OverrideAmmo = [],
+            GetMeleeDamageFromCreature = false,
+            MinRandomAmmoCount = 0,
+            DurabilityLossOnThrow = 0,
+            ThrowRange = 0,
+            MeleeCanAmputate = false,
+            Firemodes = ["implicted_toxicthrower"],
+            MaxDurability = 120,
+            MinDurabilityAfterRepair = 0,
+            Unbreakable = false,
+            RepairItemIds = TechWeapon,
+            IsImplicit = false,
+            IsMelee = false,
+            WeaponClass = WeaponClass.Flamethrower,
+            WeaponSubClass = WeaponSubClass.Toxic,
+            DefaultGrenadeId = string.Empty,
+            AllowedGrenadeIds = [],
+            BonusAccuracy = 0,
+            BonusScatterAngle = 0,
+            FovLookAngleMult = 0.7f,
+            DotWoundsDmgBonus = 0,
+            FractureWoundDmgBonus = 0,
+        };
+        Data.Items.AddRecord(AconiteId, weap);
+        Data.Descriptors["rangeweapons"].AddDescriptor(AconiteId, desc);
+    }
+    
+    static void CreateOleander()
+    {
+        var desc = ModBundle.LoadAsset<WeaponDescriptor>("TsarPoisionGunHeavyDesc");
+        var weap = new WeaponRecord
+        {
+            Id = OleanderId,
+            ContentDescriptor = desc,
+            Categories = [FactionId],
+            TechLevel = 8,
+            Price = 2400,
+            Weight = 6.5f,
+            InventoryWidthSize = 2,
+            ItemClass = ItemClass.Weapon,
+            Damage = new DmgInfo()
+            {
+                minDmg = 2,
+                maxDmg = 2,
+                critDmg = 1.7f,
+                critChance = 0
+            },
+            Range = 4,
+            MagazineCapacity = 5,
+            ReloadDuration = 7,
+            DefaultAmmoId = "toxic_ammo",
+            RequiredAmmo = "Toxic",
+            OverrideAmmo = [],
+            GetMeleeDamageFromCreature = false,
+            MinRandomAmmoCount = 0,
+            DurabilityLossOnThrow = 0,
+            ThrowRange = 0,
+            MeleeCanAmputate = false,
+            Firemodes = ["implicted_toxicthrower"],
+            MaxDurability = 120,
+            MinDurabilityAfterRepair = 0,
+            Unbreakable = false,
+            RepairItemIds = TechWeapon,
+            IsImplicit = false,
+            IsMelee = false,
+            WeaponClass = WeaponClass.Flamethrower,
+            WeaponSubClass = WeaponSubClass.Toxic,
+            DefaultGrenadeId = string.Empty,
+            AllowedGrenadeIds = [],
+            BonusAccuracy = 0,
+            BonusScatterAngle = 0,
+            FovLookAngleMult = 0.7f,
+            DotWoundsDmgBonus = 0,
+            FractureWoundDmgBonus = 0,
+        };
+        Data.Items.AddRecord(OleanderId, weap);
+        Data.Descriptors["rangeweapons"].AddDescriptor(OleanderId, desc);
     }
 }

@@ -86,25 +86,25 @@ namespace TheSovereignTsardom
                 PiratesAdditionalConsumeItems = [],
             });
             
-            
+            // todo: replace weights and prices with balanced one
             var dropDict = new Dictionary<int, List<ContentDropRecord>>();
             dropDict.Add(0, []);
-            dropDict.Add(1, []);
-            dropDict.Add(2, []);
-            dropDict.Add(3, []);
-            dropDict.Add(4, []);
-            dropDict.Add(5, []);
-            dropDict.Add(6, []);
-            dropDict.Add(7, []);
-            dropDict.Add(8, []);
+            dropDict.Add(1, [StreletsHelmet.CDR(100, 100), "medical_equipment".CDR(50, 100), "frag_mine".CDR(50, 100)]); // trash smg
+            dropDict.Add(2, ["army_pistol_3".CDR(50, 100), "trash_sawblade_1".CDR(50, 100), VassalId.CDR(50, 100), "stun_grenade".CDR(50, 100), "armored_vest_1".CDR(50, 100)]);
+            dropDict.Add(3, ["memory_software".CDR(50, 100), "heavy_basic_ammo".CDR(50, 100), KriegsmanHelmet.CDR(50, 100), KriegsmanArmor.CDR(50, 100), KriegsmanLeggings.CDR(50, 100), KriegsmanBoots.CDR(50, 100), FealtyId.CDR(50, 100)]);
+            dropDict.Add(4, [FjordId.CDR(50, 100), "army_pistol_4".CDR(50, 100), "military_shotgun_1".CDR(50, 100), "armored_expanded_vest_1".CDR(50, 100), "military_food_container".CDR(50, 100)]);
+            dropDict.Add(5, [ComitatusId.CDR(50, 100), FidelityId.CDR(50, 100), VoenkomHelmet.CDR(50, 100), VoenkomArmor.CDR(50, 100), VoenkomLeggings.CDR(50, 100), VoenkomBoots.CDR(50, 100)]); // aconite, toxtrail
+            dropDict.Add(6, [ChainswordId.CDR(50, 100), TundraId.CDR(50, 100), "heavy_flack_ammo".CDR(50, 100)]); // Panzer?
+            dropDict.Add(7, [OleanderId.CDR(50, 100), SvitaHelmet.CDR(50, 100), SvitaArmor.CDR(50, 100), SvitaLeggings.CDR(50, 100), SvitaBoots.CDR(50, 100), "toxic_grenade".CDR(50, 100)]);
+            dropDict.Add(8, [PermafrostId.CDR(50, 100), "rocket_basic_ammo".CDR(50, 100)]);
             dropDict.Add(9, []);
-            dropDict.Add(10, []);
+            dropDict.Add(10, ["rocket_nuke_ammo".CDR(50, 200)]);
             Data.FactionDrop._recordsByFactions.Add($"{FactionId}_rewardEquipment", dropDict);
             
             dropDict = new();
             dropDict.Add(0, []);
             dropDict.Add(1, []);
-            dropDict.Add(2, []);
+            dropDict.Add(2, ["vodka_bottle_1".CDR(100, 50)]);
             dropDict.Add(3, []);
             dropDict.Add(4, []);
             dropDict.Add(5, []);
@@ -117,14 +117,14 @@ namespace TheSovereignTsardom
             
             dropDict = new();
             dropDict.Add(0, []);
-            dropDict.Add(1, []);
+            dropDict.Add(1, ["itemChip".CDR(80, 500)]);
             dropDict.Add(2, []);
             dropDict.Add(3, []);
             dropDict.Add(4, []);
-            dropDict.Add(5, []);
+            dropDict.Add(5, ["mediumItemChip".CDR(80, 500)]);
             dropDict.Add(6, []);
             dropDict.Add(7, []);
-            dropDict.Add(8, []);
+            dropDict.Add(8, ["highItemChip".CDR(80, 500)]);
             dropDict.Add(9, []);
             dropDict.Add(10, []);
             Data.FactionDrop._recordsByFactions.Add($"{FactionId}_rewardChips", dropDict);
