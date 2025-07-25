@@ -51,6 +51,11 @@ public static partial class Plugin
         Logger.Log(SvitaBoots);
     }
 
+    private static readonly List<string> MetalArmor = ["plastic", "rusty_plates", "armor_plates"];
+    private static readonly List<string> SintCloth = ["rags"];
+    private static readonly List<string> AramArmor = ["rags", "rusty_plates", "armor_plates"];
+    private static readonly List<string> CeramiteShell = ["rags", "rubber", "armor_plates"];
+    
     static void CreateStrelets()
     {
         var streletsHelmetDesc = ModBundle.LoadAsset<HelmetDescriptor>("StreletsHelmet");;
@@ -66,7 +71,7 @@ public static partial class Plugin
             ItemClass = ItemClass.Armor,
             MaxDurability = 60,
             MinDurabilityAfterRepair = 0,
-            RepairCategory = "metal_armor",
+            RepairItemIds = MetalArmor,
             ResistSheet = CreateResists(2f, 6f, poison: 4f),
             ArmorClass = ArmorClass.LightArmor,
             ArmorSubClass = ArmorSubClass.Default,
@@ -99,7 +104,7 @@ public static partial class Plugin
             ItemClass = ItemClass.Boots,
             MaxDurability = 70,
             MinDurabilityAfterRepair = 0,
-            RepairCategory = "sint_cloth",
+            RepairItemIds = SintCloth,
             ResistSheet = CreateResists(5f, 8f, poison: 8f, cold: 5f),
             ArmorClass = ArmorClass.MediumArmor,
             ArmorSubClass = ArmorSubClass.Default,
@@ -120,7 +125,7 @@ public static partial class Plugin
             ItemClass = ItemClass.Leggings,
             MaxDurability = 100,
             MinDurabilityAfterRepair = 0,
-            RepairCategory = "sint_cloth",
+            RepairItemIds = SintCloth,
             ResistSheet = CreateResists(7f, 10f, poison: 10f, cold: 7f),
             ArmorClass = ArmorClass.MediumArmor,
             ArmorSubClass = ArmorSubClass.Default,
@@ -141,7 +146,7 @@ public static partial class Plugin
             ItemClass = ItemClass.Armor,
             MaxDurability = 120,
             MinDurabilityAfterRepair = 0,
-            RepairCategory = "sint_cloth",
+            RepairItemIds = SintCloth,
             ResistSheet = CreateResists(8f, 11f, poison: 11f, cold: 8f),
             ArmorClass = ArmorClass.MediumArmor,
             ArmorSubClass = ArmorSubClass.Default,
@@ -162,7 +167,7 @@ public static partial class Plugin
             ItemClass = ItemClass.Armor,
             MaxDurability = 80,
             MinDurabilityAfterRepair = 0,
-            RepairCategory = "metal_armor",
+            RepairItemIds = MetalArmor,
             ResistSheet = CreateResists(4f, 8f, cold: 2f, poison: 12f),
             ArmorClass = ArmorClass.MediumArmor,
             ArmorSubClass = ArmorSubClass.Default,
@@ -196,7 +201,7 @@ public static partial class Plugin
             ItemClass = ItemClass.Boots,
             MaxDurability = 140,
             MinDurabilityAfterRepair = 0,
-            RepairCategory = "aram_armor",
+            RepairItemIds = AramArmor,
             ResistSheet = CreateResists(6f, 8f, poison: 8f, cold: 6f),
             ArmorClass = ArmorClass.MediumArmor,
             ArmorSubClass = ArmorSubClass.Default,
@@ -217,7 +222,7 @@ public static partial class Plugin
             ItemClass = ItemClass.Leggings,
             MaxDurability = 200,
             MinDurabilityAfterRepair = 0,
-            RepairCategory = "aram_armor",
+            RepairItemIds = AramArmor,
             ResistSheet = CreateResists(10f, 12f, poison: 12f, cold: 10f),
             ArmorClass = ArmorClass.MediumArmor,
             ArmorSubClass = ArmorSubClass.Default,
@@ -238,7 +243,7 @@ public static partial class Plugin
             ItemClass = ItemClass.Armor,
             MaxDurability = 200,
             MinDurabilityAfterRepair = 0,
-            RepairCategory = "aram_armor",
+            RepairItemIds = AramArmor,
             ResistSheet = CreateResists(10f, 12f, poison: 12f, cold: 12f),
             ArmorClass = ArmorClass.MediumArmor,
             ArmorSubClass = ArmorSubClass.Default,
@@ -259,7 +264,7 @@ public static partial class Plugin
             ItemClass = ItemClass.Armor,
             MaxDurability = 140,
             MinDurabilityAfterRepair = 0,
-            RepairCategory = "aram_armor",
+            RepairItemIds = AramArmor,
             ResistSheet = CreateResists(6f, 10f, cold: 4f, poison: 12f),
             ArmorClass = ArmorClass.MediumArmor,
             ArmorSubClass = ArmorSubClass.Default,
@@ -293,7 +298,7 @@ public static partial class Plugin
             ItemClass = ItemClass.Boots,
             MaxDurability = 70,
             MinDurabilityAfterRepair = 0,
-            RepairCategory = "ceramite_shell",
+            RepairItemIds = CeramiteShell,
             ResistSheet = CreateResists(5f, 8f, poison: 8f, cold: 5f),
             ArmorClass = ArmorClass.MediumArmor,
             ArmorSubClass = ArmorSubClass.Default,
@@ -314,7 +319,7 @@ public static partial class Plugin
             ItemClass = ItemClass.Leggings,
             MaxDurability = 100,
             MinDurabilityAfterRepair = 0,
-            RepairCategory = "ceramite_shell",
+            RepairItemIds = CeramiteShell,
             ResistSheet = CreateResists(7f, 10f, poison: 10f, cold: 7f),
             ArmorClass = ArmorClass.MediumArmor,
             ArmorSubClass = ArmorSubClass.Default,
@@ -335,7 +340,7 @@ public static partial class Plugin
             ItemClass = ItemClass.Armor,
             MaxDurability = 120,
             MinDurabilityAfterRepair = 0,
-            RepairCategory = "ceramite_shell",
+            RepairItemIds = CeramiteShell,
             ResistSheet = CreateResists(8f, 11f, poison: 11f, cold: 8f),
             ArmorClass = ArmorClass.MediumArmor,
             ArmorSubClass = ArmorSubClass.Default,
@@ -356,7 +361,7 @@ public static partial class Plugin
             ItemClass = ItemClass.Armor,
             MaxDurability = 80,
             MinDurabilityAfterRepair = 0,
-            RepairCategory = "ceramite_shell",
+            RepairItemIds = CeramiteShell,
             ResistSheet = CreateResists(4f, 8f, cold: 2f, poison: 12f),
             ArmorClass = ArmorClass.MediumArmor,
             ArmorSubClass = ArmorSubClass.Default,

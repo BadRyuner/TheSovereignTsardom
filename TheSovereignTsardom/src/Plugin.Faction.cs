@@ -30,18 +30,26 @@ namespace TheSovereignTsardom
                 InitialPlayerReputation = 0,
                 FactionType = FactionType.CivilRes,
                 AllianceType = "Resistance",
-                SpawnMissionChance = 0.1f,
-                Strategies = [ new(1f, FactionStrategy.Expansion) ],
-                StrategyDurationMinHours = 672,
-                StrategyDurationMaxHours = 1344,
+                SpawnMissionChance = 0.1f, 
                 GuardCreatureId = "elite_sbn",
                 AgentCreatureId = "civilian",
+                CeoMobClassId = string.Empty,
                 MinQmorphosWhenVictims = 0,
                 UseGeneralRewards = true,
                 PortraitsByStrategy = false,
-                ItemDropCategories = [ FactionId ]
+                CanBeCaptured = true,
+                ItemDropCategories = [FactionId]
             });
             Data.Descriptors["factions"].AddDescriptor(FactionId, faction);
+            
+            Data.FactionQuestlines.AddRecord(FactionId + "_base", new()
+            {
+                Id = FactionId + "_base",
+                ContentDescriptor = null,
+                FactionId = FactionId,
+                Strategies = [ new(1f, "Expansion") ],
+                NextStepOnFail = null
+            });
             
             var earthStationDummy = Data.Stations.GetRecord("Paragon");
             Data.Stations.AddRecord(EarthStationId, new StationRecord
